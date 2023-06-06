@@ -25,3 +25,16 @@ a configuração dos serviços, redes e variáveis de ambiente necessárias.
 - Acessar http://localhost:8080/list para listar as linguagens salvas
 - Rodar `curl http://localhost:8080/add -d name=<NOME_DA_LINGUAGEM>` para adicionar novas linguagens
 - Como acessar o banco em pé: `docker-compose exec  mysql mysql -uroot -pverysecret mydatabase`
+
+## Úteis
+- [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+- [Can't create db in docker-entrypoint-initdb.d with mysql docker container](https://stackoverflow.com/questions/61092403/cant-create-db-in-docker-entrypoint-initdb-d-with-mysql-docker-container)
+- [Setting Up a MySQL Database in Docker](https://betterprogramming.pub/setting-up-mysql-database-in-a-docker-d6c69a3e9afe)
+- [Docker-compose mysql: import .sql](https://stackoverflow.com/questions/42136931/docker-compose-mysql-import-sql)
+- [MySQL init script on Docker compose](https://iamvickyav.medium.com/mysql-init-script-on-docker-compose-e53677102e48)
+- [Hibernate-sequence doesn't exist](https://stackoverflow.com/questions/32968527/hibernate-sequence-doesnt-exist)
+- [docker-compose: difference run, exec and what happens to the layers](https://stackoverflow.com/questions/65100572/docker-compose-difference-run-exec-and-what-happens-to-the-layers)
+- [PósTech](https://on.fiap.com.br/local/salavirtual/conteudo-digital.php)
+- `docker system prune -a`
+- [Use Docker Compose](https://docs.docker.com/get-started/08_using_compose/#:~:text=Docker%20Compose%20is%20a%20tool,or%20tear%20it%20all%20down.)
+- [Difference Between Docker, Dockerfile, and Docker Compose](https://www.baeldung.com/ops/docker-dockerfile-docker-compose)
